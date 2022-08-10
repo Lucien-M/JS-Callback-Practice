@@ -53,7 +53,7 @@ function move(element) {
         
         document.addEventListener('keyup', function(e){
             direction = null
-            callback(this.dir)
+            callback(direction)
         })
         
     }
